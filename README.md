@@ -26,7 +26,7 @@ Customizable, you can determine which ones to use.
 
 
 
-
+# NPM
 
 npm i @rednexie/perma.db
 https://www.npmjs.com/package/@rednexie/perma.db
