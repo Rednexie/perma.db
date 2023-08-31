@@ -10,7 +10,7 @@ You use both SQL and No-SQL systems inside one module.
 As fast as redis, since it uses caching. But it is consistent too.
 
 
-Smaller and easier to use than quick.db, since you can use it with a single database. But it is faster too.
+Easier to use than quick.db, since you can use it with a single database. But it takes up less space.
 
 
 # Has features like: 
