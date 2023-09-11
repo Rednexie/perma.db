@@ -7,7 +7,7 @@ Perma.db is a node.js database management library, uses better-sqlite3 under the
 As fast as redis, since it uses caching. But it is also consistent.
 
 
-Easier to use than quick.db, since you can use it with a single database. But it takes up less space, though.
+Easier to use than quick.db, since you can use it with a single database. It takes up less space, though.
 
 
 A library, which can be counted as both SQL and no-SQL.
