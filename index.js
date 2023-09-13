@@ -2,22 +2,9 @@ const Sqlite3 = require("better-sqlite3");
 
 const path = require("path")
 const fs = require("fs")
-const util = require("util")
 const { execSync, exec } = require("child_process")
 
 
-
-
-function promisify(fn) { 
-  
-  return function(...args) { 
-    return new Promise((resolve, reject) => { 
-      try { const result = fn(...args); resolve(result); } 
-      catch (error) { reject(error); } 
-    }); 
-  }; 
-  
-}
 
 
 
