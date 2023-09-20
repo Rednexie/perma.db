@@ -1,4 +1,4 @@
-Perma.db is a node.js database management library, uses better-sqlite3 under the hood. 
+Perma.db is a database management library, uses better-sqlite3 under the hood. 
 
 
 # Perma.db is;
