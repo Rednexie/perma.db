@@ -5,7 +5,34 @@ const fs = require("fs")
 const { execSync, exec } = require("child_process")
 
 
+function createNestedObject(str, value) {
+  const parts = str.split('.');
+  if (parts.length <= 2) return str;
 
+  let obj = {};
+  let current = obj;
+
+  for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      if (i === parts.length - 1) {
+          current[part] = value;
+      } else {
+          current[part] = {};
+          current = current[part];
+      }
+  }
+
+  return obj;
+}
+
+// Outputs:
+// {
+//   "object": {
+//     "property": {
+//       "values": "value"
+//     }
+//   }
+// }
 
 
 const { CacheDB } = require("./cache");
@@ -53,12 +80,20 @@ class PermaDB {
   }
 
 
+  
+  
+
   setSync(key, value){
-    if(this.memory) this.cache.set(key, value)
-    const insert = this.db.prepare('INSERT OR REPLACE INTO perma (key, value) VALUES (?, ?)');
-    if(typeof value == "boolean") value = String(value)
-    insert.run(key, value)
-    return value;
+    if(key.split(".").length == 0 || key.split(".").length == 2){
+      if(this.memory) this.cache.set(key, value)
+      const insert = this.db.prepare('INSERT OR REPLACE INTO perma (key, value) VALUES (?, ?)');
+      if(typeof value == "boolean") value = String(value)
+      insert.run(key, value)
+      return value;
+    }
+    else{
+      console.log(createNestedObject(key, value))
+    }
   }
   
   getSync(key){
@@ -70,7 +105,9 @@ class PermaDB {
   
   hasSync(key){
     if(this.memory && this.cache.has(key)) return true
-    return !!this.db.get(key)
+    const select = this.db.prepare('SELECT value FROM perma WHERE key = ?');
+    const result = select.get(key);
+    return !!result.value
   }
   
   deleteSync(key){
@@ -82,8 +119,9 @@ class PermaDB {
   
   typeSync(key) {
     if(this.memory && this.cache.has(key)) return this.cache.type(key)
-    const value = this.db.get(key);
-    return typeof value;
+    const select = this.db.prepare('SELECT value FROM perma WHERE key = ?');
+    const result = select.get(key)
+    return typeof result.value;
   }
     
   allSync() {
