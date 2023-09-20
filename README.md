@@ -31,3 +31,11 @@ You can use both SQL and No-SQL with perma.db. Either execute a query, or get a 
 
 npm i @rednexie/perma.db
 https://www.npmjs.com/package/@rednexie/perma.db
+
+
+
+# Working On:
+
+readonly
+strict
+api service for client-side static webpages(javascript)
