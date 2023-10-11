@@ -1,6 +1,6 @@
 {
   "name": "perma.db",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "permanent key value db based on better-sqlite3",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/Rednexie/perma.db#readme",
   "dependencies": {
-    "better-sqlite3": "^7.4.4",
+    "better-sqlite3": "^7.6.2",
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "perma.db": "^1.0.8",
+    "@rednexie/perma.db": "^1.0.3"
   }
 }
