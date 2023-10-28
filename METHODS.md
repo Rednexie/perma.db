@@ -1,4 +1,4 @@
-<div>Synchronous methods:<div></div>
+<div>Synchronous methods:</div>
 
 setSync<br>
 getSync & fetchSync<br>
