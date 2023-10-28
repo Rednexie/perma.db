@@ -1,3 +1,5 @@
+<div>Synchronous methods:<div></div>
+
 setSync<br>
 getSync & fetchSync<br>
 updateSync<br>
