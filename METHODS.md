@@ -1,34 +1,34 @@
 setSync<br>
-getSync & fetchSync
-updateSync
-hasSync
-deleteSync & removeSync
-typeSync
-allSync & fetchAllSync
-deleteAllSync & clearSync & removeAllSync
-deleteDBSync & removeDBSync
-vacuumSync 
-backupSync
-querySync
-sizeSync
-fileSizeSync
-keysSync
-valuesSync
+getSync & fetchSync<br>
+updateSync<br>
+hasSync<br>
+deleteSync & removeSync<br>
+typeSync<br>
+allSync & fetchAllSync<br>
+deleteAllSync & clearSync & removeAllSync<br>
+deleteDBSync & removeDBSync<br>
+vacuumSync <br>
+backupSync<br>
+querySync<br>
+sizeSync<br>
+fileSizeSync<br>
+keysSync<br>
+valuesSync<br>
 
 
-set
-get & fetch
-update
-has
-delete & remove
-type
-all & fetchAll
-deleteAll & clear & removeAll
-deleteDB & removeDB
-vacuum 
-backup
-query
-size
-fileSize
-keys
-values
+set<br>
+get & fetch<br>
+update<br>
+has<br>
+delete & remove<br>
+type<br>
+all & fetchAll<br>
+deleteAll & clear & removeAll<br>
+deleteDB & removeDB<br>
+vacuum <br>
+backup<br>
+query<br>
+size<br>
+fileSize<br>
+keys<br>
+values<br>
