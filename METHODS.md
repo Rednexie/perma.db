@@ -1,4 +1,4 @@
-setSync
+setSync<br>
 getSync & fetchSync
 updateSync
 hasSync
