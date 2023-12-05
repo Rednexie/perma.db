@@ -3,7 +3,7 @@ PermaDB is a versatile and easy to use database management library that aims to 
 
 # v1.0.9 API
 
-### class PermaDB
+# class PermaDB
 
 Importing the class from the module.
 ```js
@@ -51,13 +51,15 @@ _Object_
 `options.preload` specifies if all database should be loaded to the memory. Only works if the `options.memory` is `true`. Default is `false`.
 
 
-### database
+# database
 
 Creating the instance of the class imported from perma.db.
 
 ```js
 const database = new PermaDB();
 ```
+
+- (
 
 
 
