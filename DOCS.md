@@ -11,7 +11,7 @@ const { PermaDB } = require("perma.db")
 ````
 <br>
 Creating the instance of this class.
-
+<br>
 ```js
 const db = new PermaDB();
 ```
