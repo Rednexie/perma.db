@@ -55,6 +55,8 @@ _Object_
 
 Creating the instance of the class imported from perma.db.
 
+## Synchronous Methods
+
 ```js
 const database = new PermaDB();
 ```
