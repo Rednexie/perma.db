@@ -60,16 +60,16 @@ Creating the instance of the class imported from perma.db.
 const database = new PermaDB();
 ```
 ## Synchronous Methods
-- [database#setSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#setSync)
-- [database#getSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#getSync)
-- [database#updateSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#updateSync)
-- [database#hasSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#hasSync)
-- [database#deleteSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#deleteSync)
-- [database#removeSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#removeSync)
-- [database#typeSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#typeSync)
-- [database#allSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#allSync)
-- [database#fetchAllSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#fetchAllSync)
-- [database#deleteAllSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#deleteAllSync)
+- [database#setSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setSync)
+- [database#getSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getSync)
+- [database#updateSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updateSync)
+- [database#hasSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#hasSync)
+- [database#deleteSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteSync)
+- [database#removeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeSync)
+- [database#typeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#typeSync)
+- [database#allSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#allSync)
+- [database#fetchAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchAllSync)
+- [database#deleteAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteAllSync)
 
 
 
