@@ -55,12 +55,11 @@ _Object_
 
 Creating the instance of the class imported from perma.db.
 
-## Synchronous Methods
 
 ```js
 const database = new PermaDB();
 ```
-
+## Synchronous Methods
 - [database#setSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#setSync)
 - [database#getSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#getSync)
 - [database#updateSync](https://github.com/Rednexie/perma.db/edit/main/DOCS.md#updateSync)
