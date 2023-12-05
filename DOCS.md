@@ -23,6 +23,13 @@ You can customize the options of the database with arguments.
 The database name to be created. Default is `perma.db`.
 
 <h4>options</h4>
-*options* _Object_
-*memory* _Boolean_
+
+
+**options**
+_Object_
+
+
+
+*memory* 
+_Boolean_
 `options.memory` specifies if the db works both with the database file and on memory. Default is `false`.
