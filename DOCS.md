@@ -19,17 +19,21 @@ By creating a new instance of the PermaDB class, you create and open a new sqlit
 You can customize the options of the database with arguments.
 
 <h4>db_name</h4>
-<strong>String</strong><br>
+
+
+_String_
+
+
 The database name to be created. Default is `perma.db`.
 
 <h4>options</h4>
 
 
-**options**
+
 _Object_
 
 
 
-*memory* 
-_Boolean_
+*memory* Boolean
+
 `options.memory` specifies if the db works both with the database file and on memory. Default is `false`.
