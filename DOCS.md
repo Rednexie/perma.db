@@ -53,3 +53,9 @@ _Object_
 `options.preload` specifies if all database should be loaded to the memory. Only works if the `options.memory` is `true`. Default is `false`.
 
 
+### database
+
+```js
+const database = new PermaDB();
+```
+
