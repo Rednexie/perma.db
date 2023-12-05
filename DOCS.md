@@ -12,7 +12,7 @@ const { PermaDB } = require("perma.db")
 <br>
 Creating the instance of this class.
 <br>
-<strong>new PermaDB(db_name, [options])</strong>
+<h2>new PermaDB(db_name, [options])</h2>
 <h3>Returns database</h3>
 
 By creating a new instance of the PermaDB class, you create and open a new sqlite3 database.
