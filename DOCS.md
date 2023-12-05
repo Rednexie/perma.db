@@ -10,8 +10,6 @@ Importing the class from the module.
 const { PermaDB } = require("perma.db")
 ````
 <br>
-Creating the instance of this class.
-<br>
 <h2>new PermaDB(db_name, [options])</h2>
 <h4>Returns database</h4>
 
@@ -55,7 +53,11 @@ _Object_
 
 ### database
 
+Creating the instance of the class imported from perma.db.
+
 ```js
 const database = new PermaDB();
 ```
+
+
 
