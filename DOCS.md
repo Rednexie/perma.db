@@ -18,8 +18,8 @@ Creating the instance of this class.
 By creating a new instance of the PermaDB class, you create and open a new sqlite3 database.<br>
 You can customize the options of the database with arguments.
 
-<h4>db_name</h4>
-*db_name* _String_
+<h4>db_name</h4><br>
+_String_
 The database name to be created. Default is `perma.db`.
 
 <h4>options</h4>
