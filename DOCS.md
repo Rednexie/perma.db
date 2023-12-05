@@ -62,6 +62,7 @@ const database = new PermaDB();
 ## Synchronous Methods
 - [database#setSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setSync)
 - [database#getSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getSync)
+- [database#fetchSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchSync)
 - [database#updateSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updateSync)
 - [database#hasSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#hasSync)
 - [database#deleteSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteSync)
@@ -76,6 +77,14 @@ const database = new PermaDB();
 - [database#vacuumSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#vacuumSync)
 - [database#backupSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#backupSync)
 - [database#querySync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#querySync)
+- [database#sizeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#sizeSync)
+- [database#fileSizeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fileSizeSync)
+- [database#keysSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#keysSync)
+- [database#valuesSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#valuesSync)
+- [database#objectSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#objectSync)
+- [database#execSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#execSync)
+- [database#closeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#closeSync)
+- [database#expireSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expireSync)
 
 
 
