@@ -15,5 +15,5 @@ Creating the instance of this class.
 <h2>new PermaDB(db_name, [options])</h2>
 <h4>Returns database</h4>
 
-By creating a new instance of the PermaDB class, you create and open a new sqlite3 database.
+By creating a new instance of the PermaDB class, you create and open a new sqlite3 database.<br>
 You can customize the options of the database with arguments.
