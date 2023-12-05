@@ -48,7 +48,7 @@ _Object_
 
 `options.minimize` specifies if the db will automatically perform *vacuum* operations. Default is `false`.
 
-*preload*
+*preload* Boolean
 
 `options.preload` specifies if all database should be loaded to the memory. Only works if the `options.memory` is `true`. Default is `false`.
 
