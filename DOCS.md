@@ -72,7 +72,10 @@ const database = new PermaDB();
 - [database#deleteAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteAllSync)
 - [database#clearSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#clearSync)
 - [database#removeAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeAllSync)
-- [database#deleteDBSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteDBSync)
+- [database#removeDBSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeDBSync)
+- [database#vacuumSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#vacuumSync)
+- [database#backupSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#backupSync)
+- [database#querySync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#querySync)
 
 
 
