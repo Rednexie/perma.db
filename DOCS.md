@@ -37,3 +37,9 @@ _Object_
 *memory* Boolean
 
 `options.memory` specifies if the db works both with the database file and on memory. Default is `false`.
+
+*minimize* Boolean 
+
+`options.minimize` specifies if the db will automatically perform *vacuum*.
+
+
