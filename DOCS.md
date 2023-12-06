@@ -12,7 +12,12 @@ const { PermaDB } = require("perma.db")
 <br>
 <h2>new PermaDB(db_name, [options])</h2>
 
+
+
 Returns (database)[https://github.com/Rednexie/perma.db/blob/main/DOCS.md#database]
+
+
+
 
 By creating a new instance of the PermaDB class, you create and open a new sqlite3 database.<br>
 You can customize the options of the database with arguments.
