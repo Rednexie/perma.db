@@ -98,6 +98,8 @@ const database = new PermaDB();
 
 ### setSync(key, value)
 
+`setSync(key, value): value
+
 Stores the value in the database, so you can access it with the key after.
 
 
@@ -106,6 +108,35 @@ Stores the value in the database, so you can access it with the key after.
 
 
 *value* Buffer || String || Date || Number || null
+
+
+### getSync(key)
+
+`getSync(key): value || null 
+
+
+
+Returns the value with the given key in the database.
+
+
+
+*key* String
+
+
+
+### fetchSync(key)
+
+`fetchSync(key): value || null 
+
+
+
+Returns the value with the given key in the database.
+
+
+
+*key* String
+
+
 
 
 
