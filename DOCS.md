@@ -389,6 +389,257 @@ Else returns `false`.
 
 
 
+### set(key, value)
+
+`async set(key, value): Promise<Buffer || String || Date || Number || null>
+
+Stores the value in the database, so you can access it with the key after.
+Returns a promise which resolves with the value.
+
+*key* String
+
+
+
+*value* Buffer || String || Date || Number || null
+
+
+### get(key)
+
+`async get(key): Promise<value || null>
+
+
+
+Returns a promise which resolves with the value for the given key in the database
+
+
+*key* String
+
+
+
+### fetch(key)
+
+`async fetch(key): value || null`
+
+
+Stores the value in the database, so you can access it with the key after.
+Returns a promise which resolves with the value.
+
+
+*key* String
+
+
+### update(key, value)
+
+`async update(key, value) : Promise<true || false>`
+
+
+If the given key exists in the database, changes its value and resolves with `true`.
+If it doesn't exist, resolves `false`. 
+
+
+*key* String
+
+
+
+*value* Buffer || String || Date || Number || null
+
+
+
+### has(key)
+
+
+`async has(key) : Promise<true || false>`
+
+Checks if the given key exists in the database. 
+If it does, resolves with `true`. Else resolves `false`.
+
+
+*key* String
+
+
+### deleteSync(key)
+
+
+`deleteSync(key): true || false`
+
+Checks if the given key exists in the database. 
+If it does, deletes it and returns `true`. Else returns `false`.
+
+
+*key* String 
+
+
+### removeSync(key)
+
+
+`removeSync(key): true || false`
+
+Checks if the given key exists in the database. 
+If it does, deletes it and returns `true`. Else returns `false`.
+
+
+*key* String 
+
+
+### typeSync(key)
+
+`typeSync(key): typeof value || null`
+
+Checks if the given key exists in the database.
+If it does, returns the type of the value. Else returns `null`.
+
+
+*key* String
+
+
+### all(key)
+
+`async all(): [{key, value}]`
+
+Resolves all key-value pairs in the database inside an array.
+
+
+### fetchAllSync()
+
+`fetchAllSync(): Array [{key, value}]`
+
+Returns all key-value pairs in the database inside an array.
+
+### deleteAllSync()
+
+`deleteAllSync(): true`
+
+Deletes all key-value pairs in the database, and returns true
+
+### removeAllSync()
+
+
+`removeAllSync(): true`
+
+
+Deletes all key-value pairs in the database, and returns true
+
+
+### clearSync()
+
+
+`clearSync(): true`
+
+
+Deletes all key-value pairs in the database, and returns true
+
+
+### deleteDBSync()
+
+
+`deleteDBSync(): true`
+
+
+Unlinks(removes) the database after closing it and returns `true`.
+
+
+### removeDBSync()
+
+
+`removeDBSync(): true`
+
+
+Unlinks(removes) the database after closing it and returns `true`.
+
+
+
+### vacuumSync()
+
+`vacuumSync(): true`
+
+
+Vacuums the database and returns `true`.
+
+
+
+### backupSync(path)
+
+`backupSync(path): true || false`
+
+Closes the database.
+If the path already exists, returns false.
+If it doesn't, creates a backup.
+
+
+*path* String
+
+
+### querySync(sql, ...params)
+
+
+`querySync(sql, ...params): results`
+
+Execute an sql query.
+
+
+*sql* String
+
+*params* Any
+
+
+### sizeSync()
+
+
+`sizeSync(): Number || null`
+
+Returns the total size of the database contents.
+
+
+### fileSizeSync()
+
+
+`fileSizeSync(): Number`
+
+Returns the database file size in bytes
+
+
+### keysSync()
+
+`keysSync(): Array [keys]`
+
+Returns the array from the keys of the database.
+
+### valuesSync()
+
+
+`valuesSync(): Array [values(Buffer || String || Date || Number || null)]`
+
+
+Returns the array of database values
+
+
+### objectSync()
+
+
+`objectSync(): {key, value} (Object)`
+
+Returns the key-value pairs as a Javascript Object.
+
+### execSync(cmd)
+
+`execSync(cmd): output`
+
+Executes the given sqlite command, and returns the output.
+
+*cmd* String
+
+
+### closeSync()
+
+
+Closes the database.
+
+### expireSync(key, time)
+
+`execSync(key, time): true || false`
+
+If exists, deletes the given key along with it's value from the database, and returns `true`.
+Else returns `false`.
 
 
 
