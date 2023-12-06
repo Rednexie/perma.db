@@ -210,7 +210,7 @@ Returns all key-value pairs in the database inside an array.
 
 ### fetchAllSync()
 
-`fetchAllSync(): [{key, value}]`
+`fetchAllSync(): Array [{key, value}]`
 
 Returns all key-value pairs in the database inside an array.
 
@@ -266,6 +266,89 @@ Vacuums the database and returns `true`.
 
 
 
+### backupSync(path)
+
+`backupSync(path): true || false`
+
+Closes the database.
+If the path already exists, returns false.
+If it doesn't, creates a backup.
+
+
+*path* String
+
+
+### querySync(sql, ...params)
+
+
+`querySync(sql, ...params): results`
+
+Execute an sql query.
+
+
+*sql* String
+
+*params* Any
+
+
+### sizeSync()
+
+
+`sizeSync(): Number || null`
+
+Returns the total size of the database contents.
+
+
+### fileSizeSync()
+
+
+`fileSizeSync(): Number`
+
+Returns the database file size in bytes
+
+
+### keysSync()
+
+`keysSync(): Array [keys]`
+
+Returns the array from the keys of the database.
+
+### valuesSync()
+
+
+`valuesSync(): Array [values(Buffer || String || Date || Number || null)]`
+
+
+Returns the array of database values
+
+
+### objectSync()
+
+
+`objectSync(): {key, value} (Object)`
+
+Returns the key-value pairs as a Javascript Object.
+
+### execSync(cmd)
+
+`execSync(cmd): output`
+
+Executes the given sqlite command, and returns the output.
+
+*cmd* String
+
+
+### closeSync()
+
+
+Closes the database.
+
+### expireSync(key, time)
+
+`execSync(key, time): true || false`
+
+If exists, deletes the given key along with it's value from the database, and returns `true`.
+Else returns `false`.
 
 
 
