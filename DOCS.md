@@ -126,7 +126,7 @@ Returns the value with the given key in the database.
 
 ### fetchSync(key)
 
-`fetchSync(key): value || null 
+`fetchSync(key): value || null`
 
 
 
@@ -135,6 +135,27 @@ Returns the value with the given key in the database.
 
 
 *key* String
+
+
+### updateSync(key, value)
+
+`updateSync(key, value) : true || false`
+
+
+If the given key exists in the database, changes its value and returns `true`.
+If it doesn't exist, returns `false`. 
+
+
+
+### hasSync(key)
+
+
+`hasSync(key) : true || false`
+
+Checks if the given key exists in the database. 
+If it does, returns `true`. Else returns `false`.
+
+
 
 
 
