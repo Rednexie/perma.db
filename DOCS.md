@@ -585,58 +585,58 @@ Execute an sql query.
 ### sizeSync()
 
 
-`sizeSync(): Number || null`
+`size(): Promise<Number || null>`
 
 Returns the total size of the database contents.
 
 
-### fileSizeSync()
+### fileSize()
 
 
-`fileSizeSync(): Number`
+`async fileSize(): Promise<Number>`
 
-Returns the database file size in bytes
-
-
-### keysSync()
-
-`keysSync(): Array [keys]`
-
-Returns the array from the keys of the database.
-
-### valuesSync()
+Resolves with the database file size in bytes
 
 
-`valuesSync(): Array [values(Buffer || String || Date || Number || null)]`
+### keys()
+
+`async keys(): Promise<Array [keys]>`
+
+Resolves with the array from the keys of the database.
+
+### values()
 
 
-Returns the array of database values
+`async values(): Promise<Array [values(Buffer || String || Date || Number || null)]>`
 
 
-### objectSync()
+Resolves with the array of database values
 
 
-`objectSync(): {key, value} (Object)`
+### object()
 
-Returns the key-value pairs as a Javascript Object.
 
-### execSync(cmd)
+`object(): Promise<{key, value} (Object)>`
 
-`execSync(cmd): output`
+Resolves with key-value pairs as a Javascript Object.
+
+### exec(cmd)
+
+`async exec(cmd): Promise<output(String)>`
 
 Executes the given sqlite command, and returns the output.
 
 *cmd* String
 
 
-### closeSync()
+### close()
 
 
-Closes the database.
+Closes the database and resolves with true.
 
 ### expire(key, time)
 
-`expireSync(key, time): true || false`
+`async expireSync(key, time): true || false`
 
 If exists, deletes the given key along with it's value from the database, and returns `true`.
 Else returns `false`.
