@@ -166,6 +166,22 @@ If it does, returns `true`. Else returns `false`.
 *key* String
 
 
+### deleteSync(key)
+
+
+`deleteSync(key): true || false`
+
+Checks if the given key exists in the database. 
+If it does, deletes it and returns `true`. Else returns `false`.
+
+
+*key* String 
+
+
+
+
+
+
 
 
 
