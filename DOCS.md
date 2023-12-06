@@ -59,6 +59,11 @@ Creating the instance of the class imported from perma.db.
 ```js
 const database = new PermaDB();
 ```
+
+`new PermaDB(db_name, [options]): database
+
+
+
 ## Synchronous Methods
 - [database#setSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setSync)
 - [database#getSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getSync)
@@ -88,6 +93,9 @@ const database = new PermaDB();
 
 
 ### setSync(key, value)
+
+Stores the value in the database, so you can access it with the key after.
+
 
 *key* String
 
