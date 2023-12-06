@@ -220,6 +220,53 @@ Returns all key-value pairs in the database inside an array.
 
 Deletes all key-value pairs in the database, and returns true
 
+### removeAllSync()
+
+
+`removeAllSync(): true`
+
+
+Deletes all key-value pairs in the database, and returns true
+
+
+### clearSync()
+
+
+`clearSync(): true`
+
+
+Deletes all key-value pairs in the database, and returns true
+
+
+### deleteDBSync()
+
+
+`deleteDBSync(): true`
+
+
+Unlinks(removes) the database after closing it and returns `true`.
+
+
+### removeDBSync()
+
+
+`removeDBSync(): true`
+
+
+Unlinks(removes) the database after closing it and returns `true`.
+
+
+
+### vacuumSync()
+
+`vacuumSync(): true`
+
+
+Vacuums the database and returns `true`.
+
+
+
+
 
 
 
