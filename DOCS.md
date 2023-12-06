@@ -351,7 +351,7 @@ Closes the database.
 
 ### expireSync(key, time)
 
-`execSync(key, time): true || false`
+`expireSync(key, time): true || false`
 
 If exists, deletes the given key along with it's value from the database, and returns `true`.
 Else returns `false`.
@@ -391,7 +391,7 @@ Else returns `false`.
 
 ### set(key, value)
 
-`async set(key, value): Promise<Buffer || String || Date || Number || null>
+`async set(key, value): Promise<Buffer || String || Date || Number || null>`
 
 Stores the value in the database, so you can access it with the key after.
 Returns a promise which resolves with the value.
@@ -405,7 +405,7 @@ Returns a promise which resolves with the value.
 
 ### get(key)
 
-`async get(key): Promise<value || null>
+`async get(key): Promise<value || null>`
 
 
 
@@ -634,9 +634,9 @@ Executes the given sqlite command, and returns the output.
 
 Closes the database.
 
-### expireSync(key, time)
+### expire(key, time)
 
-`execSync(key, time): true || false`
+`expireSync(key, time): true || false`
 
 If exists, deletes the given key along with it's value from the database, and returns `true`.
 Else returns `false`.
