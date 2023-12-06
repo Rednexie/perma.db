@@ -208,7 +208,7 @@ If it does, returns the type of the value. Else returns `null`.
 Returns all key-value pairs in the database inside an array.
 
 
-### fetchAllSync(key)
+### fetchAllSync()
 
 `fetchAllSync(): [{key, value}]`
 
