@@ -146,6 +146,13 @@ If the given key exists in the database, changes its value and returns `true`.
 If it doesn't exist, returns `false`. 
 
 
+*key* String
+
+
+
+*value* Buffer || String || Date || Number || null
+
+
 
 ### hasSync(key)
 
@@ -156,7 +163,7 @@ Checks if the given key exists in the database.
 If it does, returns `true`. Else returns `false`.
 
 
-
+*key* String
 
 
 
