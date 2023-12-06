@@ -14,7 +14,7 @@ const { PermaDB } = require("perma.db")
 
 
 
-Returns (database)[https://github.com/Rednexie/perma.db/blob/main/DOCS.md#database]
+Returns (database) [https://github.com/Rednexie/perma.db/blob/main/DOCS.md#database]
 
 
 
