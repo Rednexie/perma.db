@@ -198,6 +198,27 @@ Checks if the given key exists in the database.
 If it does, returns the type of the value. Else returns `null`.
 
 
+*key* String
+
+
+### allSync(key)
+
+`allSync(): [{key, value}]`
+
+Returns all key-value pairs in the database inside an array.
+
+
+### fetchAllSync(key)
+
+`fetchAllSync(): [{key, value}]`
+
+Returns all key-value pairs in the database inside an array.
+
+### deleteAllSync()
+
+`deleteAllSync(): true`
+
+Deletes all key-value pairs in the database, and returns true
 
 
 
