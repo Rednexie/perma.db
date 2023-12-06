@@ -74,9 +74,9 @@ const database = new PermaDB();
 - [database#fetchSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchSynckey)
 - [database#updateSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updateSynckey-value)
 - [database#hasSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#hasSynckey)
-- [database#deleteSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteSync)
-- [database#removeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeSync)
-- [database#typeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#typeSync)
+- [database#deleteSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteSynckey)
+- [database#removeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeSynckey)
+- [database#typeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#typeSynckey)
 - [database#allSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#allSync)
 - [database#fetchAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchAllSync)
 - [database#deleteAllSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteAllSync)
@@ -176,6 +176,29 @@ If it does, deletes it and returns `true`. Else returns `false`.
 
 
 *key* String 
+
+
+### removeSync(key)
+
+
+`removeSync(key): true || false`
+
+Checks if the given key exists in the database. 
+If it does, deletes it and returns `true`. Else returns `false`.
+
+
+*key* String 
+
+
+### typeSync(key)
+
+`typeSync(key): typeof value || null`
+
+Checks if the given key exists in the database.
+If it does, returns the type of the value. Else returns `null`.
+
+
+
 
 
 
