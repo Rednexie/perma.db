@@ -87,5 +87,15 @@ const database = new PermaDB();
 - [database#expireSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expireSync)
 
 
+### setSync(key, value)
+
+*key* String
+
+
+
+*value* Buffer || String || Date || Number || null
+
+
+
 
 
