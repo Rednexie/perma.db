@@ -60,7 +60,11 @@ Creating the instance of the class imported from perma.db.
 const database = new PermaDB();
 ```
 
-`new PermaDB(db_name, [options]): database
+
+
+
+
+`new PermaDB(db_name, [options]): database`
 
 
 
