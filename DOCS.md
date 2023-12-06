@@ -69,11 +69,11 @@ const database = new PermaDB();
 
 
 ## Synchronous Methods
-- [database#setSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setSync)
-- [database#getSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getSync)
-- [database#fetchSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchSync)
-- [database#updateSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updateSync)
-- [database#hasSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#hasSync)
+- [database#setSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setsynckey-value)
+- [database#getSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getsynckey)
+- [database#fetchSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchSynckey)
+- [database#updateSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updateSynckey-value)
+- [database#hasSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#hasSynckey)
 - [database#deleteSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteSync)
 - [database#removeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeSync)
 - [database#typeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#typeSync)
