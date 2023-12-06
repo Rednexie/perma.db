@@ -352,6 +352,32 @@ Else returns `false`.
 
 
 
+## Asynchronous Methods
+- [database#set](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setkey-value)
+- [database#get](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#getkey)
+- [database#fetch](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchkey)
+- [database#update](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#updatekey-value)
+- [database#has](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#haskey)
+- [database#delete](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deletekey)
+- [database#remove](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removekey)
+- [database#type](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#typekey)
+- [database#all](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#all)
+- [database#fetchAll](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fetchall)
+- [database#deleteAll](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#deleteall)
+- [database#clear](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#clear)
+- [database#removeAll](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeAll)
+- [database#removeDB](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeDB)
+- [database#vacuum](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#vacuum)
+- [database#backup](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#backup)
+- [database#query](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#query)
+- [database#size](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#size)
+- [database#fileSize](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fileSize)
+- [database#keysSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#keys)
+- [database#values](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#values)
+- [database#object](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#object)
+- [database#exec](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#exec)
+- [database#close](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#close)
+- [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expire)
 
 
 
