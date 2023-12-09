@@ -460,7 +460,7 @@ If it does, resolves with `true`. Else resolves `false`.
 ### deleteSync(key)
 
 
-`deleteSync(key): true || false`
+`async delete(key): Promise<true || false>`
 
 Checks if the given key exists in the database. 
 If it does, deletes it and returns `true`. Else returns `false`.
@@ -469,10 +469,10 @@ If it does, deletes it and returns `true`. Else returns `false`.
 *key* String 
 
 
-### removeSync(key)
+### remove(key)
 
 
-`removeSync(key): true || false`
+`remove(key): Promise<true || false>`
 
 Checks if the given key exists in the database. 
 If it does, deletes it and returns `true`. Else returns `false`.
@@ -481,9 +481,9 @@ If it does, deletes it and returns `true`. Else returns `false`.
 *key* String 
 
 
-### typeSync(key)
+### type(key)
 
-`typeSync(key): typeof value || null`
+`async type(key): Promise<typeof value || null>`
 
 Checks if the given key exists in the database.
 If it does, returns the type of the value. Else returns `null`.
@@ -494,72 +494,72 @@ If it does, returns the type of the value. Else returns `null`.
 
 ### all(key)
 
-`async all(): [{key, value}]`
+`async all(): Promise<[{key, value}]>`
 
 Resolves all key-value pairs in the database inside an array.
 
 
-### fetchAllSync()
+### fetchAll()
 
-`fetchAllSync(): Array [{key, value}]`
+`async fetchAll(): Promise<Array [{key, value}]>`
 
 Returns all key-value pairs in the database inside an array.
 
-### deleteAllSync()
+### deleteAll()
 
-`deleteAllSync(): true`
-
-Deletes all key-value pairs in the database, and returns true
-
-### removeAllSync()
-
-
-`removeAllSync(): true`
-
+`async deleteAll(): Promise<true>`
 
 Deletes all key-value pairs in the database, and returns true
 
+### removeAll()
 
-### clearSync()
 
-
-`clearSync(): true`
+`async removeAll(): Promise<true>`
 
 
 Deletes all key-value pairs in the database, and returns true
 
 
-### deleteDBSync()
+### clear()
 
 
-`deleteDBSync(): true`
+`async clear(): Promise<true>`
+
+
+Deletes all key-value pairs in the database, and returns true
+
+
+### deleteDB()
+
+
+`async deleteDB(): Promise<true>`
 
 
 Unlinks(removes) the database after closing it and returns `true`.
 
 
-### removeDBSync()
+### removeDB()
 
 
-`removeDBSync(): true`
+`async removeDB(): Promise<true>`
 
 
 Unlinks(removes) the database after closing it and returns `true`.
 
 
 
-### vacuumSync()
+### vacuum()
 
-`vacuumSync(): true`
+`async vacuum(): Promise<true>`
 
 
 Vacuums the database and returns `true`.
 
 
 
-### backupSync(path)
+### backup(path)
 
-`backupSync(path): true || false`
+`async backup(path): Promise<true || false>`
 
 Closes the database.
 If the path already exists, returns false.
@@ -569,10 +569,10 @@ If it doesn't, creates a backup.
 *path* String
 
 
-### querySync(sql, ...params)
+### query(sql, ...params)
 
 
-`querySync(sql, ...params): results`
+`async query(sql, ...params): Promise<results>`
 
 Execute an sql query.
 
@@ -585,7 +585,7 @@ Execute an sql query.
 ### sizeSync()
 
 
-`size(): Promise<Number || null>`
+`async size(): Promise<Number || null>`
 
 Returns the total size of the database contents.
 
@@ -616,7 +616,7 @@ Resolves with the array of database values
 ### object()
 
 
-`object(): Promise<{key, value} (Object)>`
+`async object(): Promise<{key, value} (Object)>`
 
 Resolves with key-value pairs as a Javascript Object.
 
@@ -631,15 +631,23 @@ Executes the given sqlite command, and returns the output.
 
 ### close()
 
+`async close(): Promise<true>`
 
 Closes the database and resolves with true.
 
 ### expire(key, time)
 
-`async expireSync(key, time): true || false`
+`async expire(key, time): Promise<true || false>`
 
 If exists, deletes the given key along with it's value from the database, and returns `true`.
+
 Else returns `false`.
+
+*key* String
+
+
+
+*time* Number
 
 
 
