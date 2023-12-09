@@ -381,9 +381,9 @@ Else returns `false`.
 - [database#keysSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#keys)
 - [database#values](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#values)
 - [database#object](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#object)
-- [database#exec](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#exec)
+- [database#exec](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#exec-cmd)
 - [database#close](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#close)
-- [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expire)
+- [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expire-keytime)
 
 
 
