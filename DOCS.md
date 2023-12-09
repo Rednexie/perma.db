@@ -349,6 +349,8 @@ Executes the given sqlite command, and returns the output.
 
 Closes the database.
 
+`closeSync(): true`
+
 ### expireSync(key, time)
 
 `expireSync(key, time): true || false`
