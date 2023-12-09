@@ -374,8 +374,8 @@ Else returns `false`.
 - [database#removeAll](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeAll)
 - [database#removeDB](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#removeDB)
 - [database#vacuum](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#vacuum)
-- [database#backup](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#backup)
-- [database#query](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#query)
+- [database#backup](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#backuppath)
+- [database#query](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#querysql-params)
 - [database#size](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#size)
 - [database#fileSize](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#fileSize)
 - [database#keysSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#keys)
@@ -383,7 +383,7 @@ Else returns `false`.
 - [database#object](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#object)
 - [database#exec](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#exec-cmd)
 - [database#close](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#close)
-- [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expire-keytime)
+- [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expirekey-time)
 
 
 
