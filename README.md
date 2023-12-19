@@ -20,6 +20,8 @@ The highlight of perma.db is that it makes it easy to process and access your da
 
 # Links
 
+PermaDB documentation: https://github.com/Rednexie/perma.db/blob/main/DOCS.md
+
 Node Package Manager: https://npmjs.com/perma.db
 
 Python Module: https://github.com/LegendMan46/permaDB
