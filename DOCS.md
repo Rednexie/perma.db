@@ -359,6 +359,13 @@ If exists, deletes the given key along with it's value from the database, and re
 Else returns `false`.
 
 
+## lengthSync
+
+`length(): Promise<number>`
+
+Returns the number of existing key-value pairs in the database.
+
+
 
 ## Asynchronous Methods
 - [database#set](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#setkey-value)
@@ -650,6 +657,13 @@ Else returns `false`.
 
 
 *time* Number
+
+
+## length
+
+`async length(): Promise<number>`
+
+Resolves with the number of existing key-value pairs in the database.
 
 
 
