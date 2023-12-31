@@ -104,7 +104,7 @@ const database = new PermaDB();
 
 ### setSync(key, value)
 
-`setSync(key, value): value
+`setSync(key, value): value`
 
 Stores the value in the database, so you can access it with the key after.
 
@@ -118,8 +118,7 @@ Stores the value in the database, so you can access it with the key after.
 
 ### getSync(key)
 
-`getSync(key): value || null 
-
+`getSync(key): value || null`
 
 
 Returns the value with the given key in the database.
