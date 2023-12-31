@@ -360,7 +360,7 @@ Else returns `false`.
 
 ## lengthSync
 
-`length(): Promise<number>`
+`length(): Number`
 
 Returns the number of existing key-value pairs in the database.
 
