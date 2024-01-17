@@ -100,7 +100,7 @@ const database = new PermaDB();
 - [database#execSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#execSync)
 - [database#closeSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#closeSync)
 - [database#expireSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expireSync)
-
+- [database#lengthSync](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#lengthSync)
 
 ### setSync(key, value)
 
@@ -358,9 +358,9 @@ If exists, deletes the given key along with it's value from the database, and re
 Else returns `false`.
 
 
-## lengthSync
+## lengthSync()
 
-`length(): Number`
+`lengthSync(): Number`
 
 Returns the number of existing key-value pairs in the database.
 
@@ -392,6 +392,7 @@ Returns the number of existing key-value pairs in the database.
 - [database#exec](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#exec-cmd)
 - [database#close](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#close)
 - [database#expire](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#expirekey-time)
+- [database#length](https://github.com/Rednexie/perma.db/blob/main/DOCS.md#length)
 
 
 
@@ -590,7 +591,7 @@ Execute an sql query.
 *params* Any
 
 
-### sizeSync()
+### size()
 
 
 `async size(): Promise<Number || null>`
@@ -658,7 +659,7 @@ Else returns `false`.
 *time* Number
 
 
-## length
+## length()
 
 `async length(): Promise<number>`
 
